@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px) {
+
+    .partner .partner-img figure{
+        width: 130px; 
+        height: 90px;  
+    } 
+    .partner {
+        position: relative;
+        margin-top: -5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .service .card {
+        margin-bottom: 1rem;
+    }
+    .banner-btn a:first-child{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 542px) {
+    .grid-talent .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .job-seeker .job-seeker-disc{
+        padding-top: 2rem;
+    }
+    .news-letter-grid{
+        grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr)); */
+    }
+    .grid-why-us {
+        max-height: 500px;
+        background-size: 135% 135%;
+        min-height: 200px;
+    }
+
+}
