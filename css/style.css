@@ -15,7 +15,7 @@
     --btn-hover-bg: transparent;
     
 }
-body{
+body,html{
     text-decoration: none;
     box-sizing: border-box;
     padding: 0px;margin: 0px;
