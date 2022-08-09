@@ -80,7 +80,32 @@ body{
 
 
 /*=========navbar===========*/
+.fixed-top {
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 10px;
+	
+	box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
+	animation: smoothScroll .8s forwards;
+	z-index: 9;
+	-webkit-transition: 1.3s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+	-webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
+	box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
+	
+}
 
+
+
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
 .navbar .navbar-toggler{
     box-shadow: none;
     border: 0px solid var(--bs-light-blue);

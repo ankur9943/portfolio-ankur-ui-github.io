@@ -560,6 +560,21 @@
           });
         })
     </script>
+         <script>
+          /*===========navbar=========fixed======*/
+             $(document).ready(function(){
+                   $(window).bind('scroll', function() {
+                   var navhight = $( window ).height() - 30
+                         if ($(window).scrollTop() > 0) {
+                               $('nav').addClass('fixed-top');
+                         }
+                         else {
+                               $('nav').removeClass('fixed-top');
+                         }
+                   });
+             });
+       
+          </script>
 
 
 </body>
