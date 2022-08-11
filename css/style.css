@@ -155,7 +155,7 @@ body,html{
 
 /*================carousel==================*/
 #carouselExampleSlidesOnly .carousel-item img{
-	object-fit: cover;
+	
 	min-height: 197px
 }
 #carouselExampleSlidesOnly .carousel-item{
