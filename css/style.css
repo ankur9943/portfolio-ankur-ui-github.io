@@ -154,10 +154,13 @@ body,html{
 }
 
 /*================carousel==================*/
-
+#carouselExampleSlidesOnly .carousel-item img{
+	object-fit: cover;
+	min-height: 197px
+}
 #carouselExampleSlidesOnly .carousel-item{
     position: relative;
-    max-height: calc(70vw + 5vh) ;
+   
     display: flex;
     justify-content: center;
     align-items: center;
