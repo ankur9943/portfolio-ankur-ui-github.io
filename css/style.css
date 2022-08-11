@@ -57,7 +57,9 @@ body,html{
     color:var(--bs-text-headings);
     font-weight: 600;
     opacity: 1;
-
+}
+* img{
+    max-width: 100%;
 }
 
 .main-button{
@@ -155,7 +157,7 @@ body,html{
 
 #carouselExampleSlidesOnly .carousel-item{
     position: relative;
-    max-height: calc(40vw + 5vh) ;
+    max-height: calc(70vw + 5vh) ;
     display: flex;
     justify-content: center;
     align-items: center;
